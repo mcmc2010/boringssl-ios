@@ -296,6 +296,10 @@ extern "C" {
 #endif
 #endif  // OPENSSL_ASM_INCOMPATIBLE
 
+#if !defined(OPENSSL_NO_ASM)
+#define OPENSSL_NO_ASM
+#endif
+
 #if defined(__cplusplus)
 // enums can be predeclared, but only in C++ and only if given an explicit type.
 // C doesn't support setting an explicit type for enums thus a #define is used
