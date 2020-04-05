@@ -1,0 +1,6 @@
+framework module boringssl_ios {
+  umbrella header "boringssl_ios.h"
+
+  export *
+  module * { export * }
+}
