@@ -157,6 +157,48 @@
 		3B4676F0243BA29D00BCA0E0 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4676EC243BA29D00BCA0E0 /* internal.h */; };
 		3B4676F1243BA29D00BCA0E0 /* cast.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676ED243BA29D00BCA0E0 /* cast.c */; };
 		3B4676F2243BA29D00BCA0E0 /* cast_tables.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676EE243BA29D00BCA0E0 /* cast_tables.c */; };
+		3B46777C243BC8FC00BCA0E0 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4676F7243BC8FB00BCA0E0 /* internal.h */; };
+		3B46777D243BC8FC00BCA0E0 /* d1_pkt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676F8243BC8FB00BCA0E0 /* d1_pkt.cc */; };
+		3B46777E243BC8FC00BCA0E0 /* ssl_versions.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676F9243BC8FB00BCA0E0 /* ssl_versions.cc */; };
+		3B46777F243BC8FC00BCA0E0 /* t1_lib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676FA243BC8FB00BCA0E0 /* t1_lib.cc */; };
+		3B467782243BC8FC00BCA0E0 /* ssl_c_test.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676FD243BC8FB00BCA0E0 /* ssl_c_test.c */; };
+		3B467783243BC8FC00BCA0E0 /* ssl_transcript.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676FE243BC8FB00BCA0E0 /* ssl_transcript.cc */; };
+		3B467784243BC8FC00BCA0E0 /* d1_both.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B4676FF243BC8FB00BCA0E0 /* d1_both.cc */; };
+		3B4677DC243BC8FC00BCA0E0 /* tls13_enc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46775C243BC8FB00BCA0E0 /* tls13_enc.cc */; };
+		3B4677DD243BC8FC00BCA0E0 /* dtls_method.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46775D243BC8FB00BCA0E0 /* dtls_method.cc */; };
+		3B4677DE243BC8FC00BCA0E0 /* dtls_record.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46775E243BC8FB00BCA0E0 /* dtls_record.cc */; };
+		3B4677DF243BC8FC00BCA0E0 /* ssl_cipher.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46775F243BC8FB00BCA0E0 /* ssl_cipher.cc */; };
+		3B4677E0243BC8FC00BCA0E0 /* tls_method.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467760243BC8FB00BCA0E0 /* tls_method.cc */; };
+		3B4677E1243BC8FC00BCA0E0 /* tls_record.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467761243BC8FB00BCA0E0 /* tls_record.cc */; };
+		3B4677E2243BC8FC00BCA0E0 /* ssl_privkey.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467762243BC8FB00BCA0E0 /* ssl_privkey.cc */; };
+		3B4677E3243BC8FC00BCA0E0 /* ssl_x509.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467763243BC8FB00BCA0E0 /* ssl_x509.cc */; };
+		3B4677E4243BC8FC00BCA0E0 /* ssl_buffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467764243BC8FB00BCA0E0 /* ssl_buffer.cc */; };
+		3B4677E5243BC8FC00BCA0E0 /* s3_pkt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467765243BC8FB00BCA0E0 /* s3_pkt.cc */; };
+		3B4677E6243BC8FC00BCA0E0 /* d1_srtp.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467766243BC8FB00BCA0E0 /* d1_srtp.cc */; };
+		3B4677E7243BC8FC00BCA0E0 /* tls13_both.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467767243BC8FB00BCA0E0 /* tls13_both.cc */; };
+		3B4677E8243BC8FC00BCA0E0 /* ssl_aead_ctx.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467768243BC8FB00BCA0E0 /* ssl_aead_ctx.cc */; };
+		3B4677E9243BC8FC00BCA0E0 /* handshake_server.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467769243BC8FB00BCA0E0 /* handshake_server.cc */; };
+		3B4677EA243BC8FC00BCA0E0 /* t1_enc.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46776A243BC8FB00BCA0E0 /* t1_enc.cc */; };
+		3B4677EB243BC8FC00BCA0E0 /* s3_lib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46776B243BC8FC00BCA0E0 /* s3_lib.cc */; };
+		3B4677EC243BC8FC00BCA0E0 /* handoff.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46776C243BC8FC00BCA0E0 /* handoff.cc */; };
+		3B4677ED243BC8FC00BCA0E0 /* ssl_session.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46776D243BC8FC00BCA0E0 /* ssl_session.cc */; };
+		3B4677EE243BC8FC00BCA0E0 /* tls13_server.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46776E243BC8FC00BCA0E0 /* tls13_server.cc */; };
+		3B4677EF243BC8FC00BCA0E0 /* ssl_asn1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46776F243BC8FC00BCA0E0 /* ssl_asn1.cc */; };
+		3B4677F0243BC8FC00BCA0E0 /* ssl_key_share.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467770243BC8FC00BCA0E0 /* ssl_key_share.cc */; };
+		3B4677F1243BC8FC00BCA0E0 /* ssl_file.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467771243BC8FC00BCA0E0 /* ssl_file.cc */; };
+		3B4677F2243BC8FC00BCA0E0 /* bio_ssl.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467772243BC8FC00BCA0E0 /* bio_ssl.cc */; };
+		3B4677F3243BC8FC00BCA0E0 /* handshake_client.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467773243BC8FC00BCA0E0 /* handshake_client.cc */; };
+		3B4677F4243BC8FC00BCA0E0 /* ssl_lib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467774243BC8FC00BCA0E0 /* ssl_lib.cc */; };
+		3B4677F5243BC8FC00BCA0E0 /* s3_both.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467775243BC8FC00BCA0E0 /* s3_both.cc */; };
+		3B4677F6243BC8FC00BCA0E0 /* ssl_cert.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467776243BC8FC00BCA0E0 /* ssl_cert.cc */; };
+		3B4677F7243BC8FC00BCA0E0 /* handshake.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467777243BC8FC00BCA0E0 /* handshake.cc */; };
+		3B4677F8243BC8FC00BCA0E0 /* d1_lib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467778243BC8FC00BCA0E0 /* d1_lib.cc */; };
+		3B4677F9243BC8FC00BCA0E0 /* tls13_client.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B467779243BC8FC00BCA0E0 /* tls13_client.cc */; };
+		3B4677FA243BC8FC00BCA0E0 /* ssl_stat.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3B46777A243BC8FC00BCA0E0 /* ssl_stat.cc */; };
+		3B467801243BC9AE00BCA0E0 /* internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4677FC243BC9AE00BCA0E0 /* internal.h */; };
+		3B467803243BC9AE00BCA0E0 /* hrss.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B4677FF243BC9AE00BCA0E0 /* hrss.c */; };
+		3B467807243BCA3100BCA0E0 /* socket.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B467805243BCA3100BCA0E0 /* socket.c */; };
+		3B467808243BCA3100BCA0E0 /* socket_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B467806243BCA3100BCA0E0 /* socket_helper.c */; };
 		3BE69448243A5686000F7240 /* boringssl_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE69446243A5686000F7240 /* boringssl_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE6949C243A585B000F7240 /* pem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE69450243A585B000F7240 /* pem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3BE6949D243A585B000F7240 /* nid.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BE69451243A585B000F7240 /* nid.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -487,6 +529,48 @@
 		3B4676EC243BA29D00BCA0E0 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
 		3B4676ED243BA29D00BCA0E0 /* cast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cast.c; sourceTree = "<group>"; };
 		3B4676EE243BA29D00BCA0E0 /* cast_tables.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cast_tables.c; sourceTree = "<group>"; };
+		3B4676F7243BC8FB00BCA0E0 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		3B4676F8243BC8FB00BCA0E0 /* d1_pkt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = d1_pkt.cc; sourceTree = "<group>"; };
+		3B4676F9243BC8FB00BCA0E0 /* ssl_versions.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_versions.cc; sourceTree = "<group>"; };
+		3B4676FA243BC8FB00BCA0E0 /* t1_lib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t1_lib.cc; sourceTree = "<group>"; };
+		3B4676FD243BC8FB00BCA0E0 /* ssl_c_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ssl_c_test.c; sourceTree = "<group>"; };
+		3B4676FE243BC8FB00BCA0E0 /* ssl_transcript.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_transcript.cc; sourceTree = "<group>"; };
+		3B4676FF243BC8FB00BCA0E0 /* d1_both.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = d1_both.cc; sourceTree = "<group>"; };
+		3B46775C243BC8FB00BCA0E0 /* tls13_enc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tls13_enc.cc; sourceTree = "<group>"; };
+		3B46775D243BC8FB00BCA0E0 /* dtls_method.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dtls_method.cc; sourceTree = "<group>"; };
+		3B46775E243BC8FB00BCA0E0 /* dtls_record.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dtls_record.cc; sourceTree = "<group>"; };
+		3B46775F243BC8FB00BCA0E0 /* ssl_cipher.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_cipher.cc; sourceTree = "<group>"; };
+		3B467760243BC8FB00BCA0E0 /* tls_method.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tls_method.cc; sourceTree = "<group>"; };
+		3B467761243BC8FB00BCA0E0 /* tls_record.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tls_record.cc; sourceTree = "<group>"; };
+		3B467762243BC8FB00BCA0E0 /* ssl_privkey.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_privkey.cc; sourceTree = "<group>"; };
+		3B467763243BC8FB00BCA0E0 /* ssl_x509.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_x509.cc; sourceTree = "<group>"; };
+		3B467764243BC8FB00BCA0E0 /* ssl_buffer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_buffer.cc; sourceTree = "<group>"; };
+		3B467765243BC8FB00BCA0E0 /* s3_pkt.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = s3_pkt.cc; sourceTree = "<group>"; };
+		3B467766243BC8FB00BCA0E0 /* d1_srtp.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = d1_srtp.cc; sourceTree = "<group>"; };
+		3B467767243BC8FB00BCA0E0 /* tls13_both.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tls13_both.cc; sourceTree = "<group>"; };
+		3B467768243BC8FB00BCA0E0 /* ssl_aead_ctx.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_aead_ctx.cc; sourceTree = "<group>"; };
+		3B467769243BC8FB00BCA0E0 /* handshake_server.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = handshake_server.cc; sourceTree = "<group>"; };
+		3B46776A243BC8FB00BCA0E0 /* t1_enc.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t1_enc.cc; sourceTree = "<group>"; };
+		3B46776B243BC8FC00BCA0E0 /* s3_lib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = s3_lib.cc; sourceTree = "<group>"; };
+		3B46776C243BC8FC00BCA0E0 /* handoff.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = handoff.cc; sourceTree = "<group>"; };
+		3B46776D243BC8FC00BCA0E0 /* ssl_session.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_session.cc; sourceTree = "<group>"; };
+		3B46776E243BC8FC00BCA0E0 /* tls13_server.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tls13_server.cc; sourceTree = "<group>"; };
+		3B46776F243BC8FC00BCA0E0 /* ssl_asn1.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_asn1.cc; sourceTree = "<group>"; };
+		3B467770243BC8FC00BCA0E0 /* ssl_key_share.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_key_share.cc; sourceTree = "<group>"; };
+		3B467771243BC8FC00BCA0E0 /* ssl_file.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_file.cc; sourceTree = "<group>"; };
+		3B467772243BC8FC00BCA0E0 /* bio_ssl.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bio_ssl.cc; sourceTree = "<group>"; };
+		3B467773243BC8FC00BCA0E0 /* handshake_client.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = handshake_client.cc; sourceTree = "<group>"; };
+		3B467774243BC8FC00BCA0E0 /* ssl_lib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_lib.cc; sourceTree = "<group>"; };
+		3B467775243BC8FC00BCA0E0 /* s3_both.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = s3_both.cc; sourceTree = "<group>"; };
+		3B467776243BC8FC00BCA0E0 /* ssl_cert.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_cert.cc; sourceTree = "<group>"; };
+		3B467777243BC8FC00BCA0E0 /* handshake.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = handshake.cc; sourceTree = "<group>"; };
+		3B467778243BC8FC00BCA0E0 /* d1_lib.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = d1_lib.cc; sourceTree = "<group>"; };
+		3B467779243BC8FC00BCA0E0 /* tls13_client.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tls13_client.cc; sourceTree = "<group>"; };
+		3B46777A243BC8FC00BCA0E0 /* ssl_stat.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssl_stat.cc; sourceTree = "<group>"; };
+		3B4677FC243BC9AE00BCA0E0 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		3B4677FF243BC9AE00BCA0E0 /* hrss.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hrss.c; sourceTree = "<group>"; };
+		3B467805243BCA3100BCA0E0 /* socket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket.c; sourceTree = "<group>"; };
+		3B467806243BCA3100BCA0E0 /* socket_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socket_helper.c; sourceTree = "<group>"; };
 		3BE69443243A5686000F7240 /* boringssl_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = boringssl_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE69446243A5686000F7240 /* boringssl_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boringssl_ios.h; sourceTree = "<group>"; };
 		3BE69447243A5686000F7240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -932,6 +1016,60 @@
 			path = cast;
 			sourceTree = "<group>";
 		};
+		3B4676F5243BC8FB00BCA0E0 /* ssl */ = {
+			isa = PBXGroup;
+			children = (
+				3B4676F7243BC8FB00BCA0E0 /* internal.h */,
+				3B4676F8243BC8FB00BCA0E0 /* d1_pkt.cc */,
+				3B4676F9243BC8FB00BCA0E0 /* ssl_versions.cc */,
+				3B4676FA243BC8FB00BCA0E0 /* t1_lib.cc */,
+				3B4676FD243BC8FB00BCA0E0 /* ssl_c_test.c */,
+				3B4676FE243BC8FB00BCA0E0 /* ssl_transcript.cc */,
+				3B4676FF243BC8FB00BCA0E0 /* d1_both.cc */,
+				3B46775C243BC8FB00BCA0E0 /* tls13_enc.cc */,
+				3B46775D243BC8FB00BCA0E0 /* dtls_method.cc */,
+				3B46775E243BC8FB00BCA0E0 /* dtls_record.cc */,
+				3B46775F243BC8FB00BCA0E0 /* ssl_cipher.cc */,
+				3B467760243BC8FB00BCA0E0 /* tls_method.cc */,
+				3B467761243BC8FB00BCA0E0 /* tls_record.cc */,
+				3B467762243BC8FB00BCA0E0 /* ssl_privkey.cc */,
+				3B467763243BC8FB00BCA0E0 /* ssl_x509.cc */,
+				3B467764243BC8FB00BCA0E0 /* ssl_buffer.cc */,
+				3B467765243BC8FB00BCA0E0 /* s3_pkt.cc */,
+				3B467766243BC8FB00BCA0E0 /* d1_srtp.cc */,
+				3B467767243BC8FB00BCA0E0 /* tls13_both.cc */,
+				3B467768243BC8FB00BCA0E0 /* ssl_aead_ctx.cc */,
+				3B467769243BC8FB00BCA0E0 /* handshake_server.cc */,
+				3B46776A243BC8FB00BCA0E0 /* t1_enc.cc */,
+				3B46776B243BC8FC00BCA0E0 /* s3_lib.cc */,
+				3B46776C243BC8FC00BCA0E0 /* handoff.cc */,
+				3B46776D243BC8FC00BCA0E0 /* ssl_session.cc */,
+				3B46776E243BC8FC00BCA0E0 /* tls13_server.cc */,
+				3B46776F243BC8FC00BCA0E0 /* ssl_asn1.cc */,
+				3B467770243BC8FC00BCA0E0 /* ssl_key_share.cc */,
+				3B467771243BC8FC00BCA0E0 /* ssl_file.cc */,
+				3B467772243BC8FC00BCA0E0 /* bio_ssl.cc */,
+				3B467773243BC8FC00BCA0E0 /* handshake_client.cc */,
+				3B467774243BC8FC00BCA0E0 /* ssl_lib.cc */,
+				3B467775243BC8FC00BCA0E0 /* s3_both.cc */,
+				3B467776243BC8FC00BCA0E0 /* ssl_cert.cc */,
+				3B467777243BC8FC00BCA0E0 /* handshake.cc */,
+				3B467778243BC8FC00BCA0E0 /* d1_lib.cc */,
+				3B467779243BC8FC00BCA0E0 /* tls13_client.cc */,
+				3B46777A243BC8FC00BCA0E0 /* ssl_stat.cc */,
+			);
+			path = ssl;
+			sourceTree = "<group>";
+		};
+		3B4677FB243BC9AE00BCA0E0 /* hrss */ = {
+			isa = PBXGroup;
+			children = (
+				3B4677FC243BC9AE00BCA0E0 /* internal.h */,
+				3B4677FF243BC9AE00BCA0E0 /* hrss.c */,
+			);
+			path = hrss;
+			sourceTree = "<group>";
+		};
 		3BE69439243A5686000F7240 = {
 			isa = PBXGroup;
 			children = (
@@ -951,6 +1089,7 @@
 		3BE69445243A5686000F7240 /* boringssl-ios */ = {
 			isa = PBXGroup;
 			children = (
+				3B4676F5243BC8FB00BCA0E0 /* ssl */,
 				3B467524243B97B900BCA0E0 /* err_data.c */,
 				3BE69673243A65EA000F7240 /* third_party */,
 				3BE694E8243A5AC8000F7240 /* crypto */,
@@ -1055,6 +1194,7 @@
 		3BE694E8243A5AC8000F7240 /* crypto */ = {
 			isa = PBXGroup;
 			children = (
+				3B4677FB243BC9AE00BCA0E0 /* hrss */,
 				3B4676EB243BA29D00BCA0E0 /* cast */,
 				3B4676E9243BA1AF00BCA0E0 /* macros.h */,
 				3B4676E4243BA17A00BCA0E0 /* blowfish */,
@@ -1118,6 +1258,8 @@
 		3BE694F0243A62E2000F7240 /* bio */ = {
 			isa = PBXGroup;
 			children = (
+				3B467806243BCA3100BCA0E0 /* socket_helper.c */,
+				3B467805243BCA3100BCA0E0 /* socket.c */,
 				3BE694F1243A62E2000F7240 /* printf.c */,
 				3BE694F2243A62E2000F7240 /* internal.h */,
 				3BE694F3243A62E2000F7240 /* pair.c */,
@@ -1437,7 +1579,9 @@
 				3B4676DD243BA06500BCA0E0 /* internal.h in Headers */,
 				3BE694D5243A585B000F7240 /* ec.h in Headers */,
 				3BE694AD243A585B000F7240 /* asn1.h in Headers */,
+				3B467801243BC9AE00BCA0E0 /* internal.h in Headers */,
 				3B4676C0243B9E3300BCA0E0 /* internal.h in Headers */,
+				3B46777C243BC8FC00BCA0E0 /* internal.h in Headers */,
 				3BE694CF243A585B000F7240 /* aes.h in Headers */,
 				3BE694E1243A585B000F7240 /* srtp.h in Headers */,
 				3BE694D6243A585B000F7240 /* hrss.h in Headers */,
@@ -1559,8 +1703,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B4677ED243BC8FC00BCA0E0 /* ssl_session.cc in Sources */,
 				3B4676F1243BA29D00BCA0E0 /* cast.c in Sources */,
 				3B46769A243B9CAC00BCA0E0 /* algorithm.c in Sources */,
+				3B4677E2243BC8FC00BCA0E0 /* ssl_privkey.cc in Sources */,
 				3B4676CE243BA02F00BCA0E0 /* pem_all.c in Sources */,
 				3BE69A74243A66B4000F7240 /* tasn_fre.c in Sources */,
 				3B4676A2243B9CAC00BCA0E0 /* x509_obj.c in Sources */,
@@ -1576,10 +1722,12 @@
 				3B467650243B9CAC00BCA0E0 /* v3_pmaps.c in Sources */,
 				3BE69A86243A66DD000F7240 /* unicode.c in Sources */,
 				3B4676C1243B9E3300BCA0E0 /* pkcs7_x509.c in Sources */,
+				3B4677F4243BC8FC00BCA0E0 /* ssl_lib.cc in Sources */,
 				3BE69AFA243A7130000F7240 /* ecdh_extra.c in Sources */,
 				3B4676A0243B9CAC00BCA0E0 /* x_sig.c in Sources */,
 				3B4676DE243BA06500BCA0E0 /* poly1305_vec.c in Sources */,
 				3B46768E243B9CAC00BCA0E0 /* x509_lu.c in Sources */,
+				3B4677EE243BC8FC00BCA0E0 /* tls13_server.cc in Sources */,
 				3B4675CF243B9BB500BCA0E0 /* p_x25519.c in Sources */,
 				3B467587243B986B00BCA0E0 /* e_aesccm.c in Sources */,
 				3B46768C243B9CAC00BCA0E0 /* rsa_pss.c in Sources */,
@@ -1598,7 +1746,10 @@
 				3B467659243B9CAC00BCA0E0 /* v3_prn.c in Sources */,
 				3B467661243B9CAC00BCA0E0 /* v3_skey.c in Sources */,
 				3BE69A5F243A66B4000F7240 /* a_strnid.c in Sources */,
+				3B4677E4243BC8FC00BCA0E0 /* ssl_buffer.cc in Sources */,
+				3B4677F8243BC8FC00BCA0E0 /* d1_lib.cc in Sources */,
 				3BE6961B243A6416000F7240 /* bcm.c in Sources */,
+				3B4677E0243BC8FC00BCA0E0 /* tls_method.cc in Sources */,
 				3B46766C243B9CAC00BCA0E0 /* x509spki.c in Sources */,
 				3B4675A4243B99B000BCA0E0 /* dsa.c in Sources */,
 				3B46766D243B9CAC00BCA0E0 /* x509cset.c in Sources */,
@@ -1606,22 +1757,29 @@
 				3BE69B00243A71A0000F7240 /* engine.c in Sources */,
 				3B4676BC243B9E3300BCA0E0 /* p5_pbev2.c in Sources */,
 				3BE69A7D243A66B5000F7240 /* tasn_typ.c in Sources */,
+				3B4677E3243BC8FC00BCA0E0 /* ssl_x509.cc in Sources */,
 				3B4675CE243B9BB500BCA0E0 /* sign.c in Sources */,
+				3B4677F9243BC8FC00BCA0E0 /* tls13_client.cc in Sources */,
 				3BE69505243A62E2000F7240 /* fd.c in Sources */,
 				3BE69A65243A66B4000F7240 /* a_int.c in Sources */,
 				3BE69AB7243A6F61000F7240 /* thread_pthread.c in Sources */,
+				3B46777E243BC8FC00BCA0E0 /* ssl_versions.cc in Sources */,
 				3B4676D4243BA02F00BCA0E0 /* pem_x509.c in Sources */,
 				3BE69AC8243A6FF0000F7240 /* pool.c in Sources */,
+				3B4677DD243BC8FC00BCA0E0 /* dtls_method.cc in Sources */,
 				3B4676DF243BA06500BCA0E0 /* poly1305_arm.c in Sources */,
 				3BE69B3B243A723D000F7240 /* err.c in Sources */,
+				3B46777F243BC8FC00BCA0E0 /* t1_lib.cc in Sources */,
 				3B467652243B9CAC00BCA0E0 /* v3_pci.c in Sources */,
 				3B4675DC243B9C1900BCA0E0 /* rsa_asn1.c in Sources */,
 				3B4675D3243B9BB500BCA0E0 /* p_dsa_asn1.c in Sources */,
 				3BE69A9D243A673C000F7240 /* obj.c in Sources */,
 				3B4676BA243B9E3300BCA0E0 /* pkcs8_x509.c in Sources */,
 				3B4676A3243B9CAC00BCA0E0 /* x509_r2x.c in Sources */,
+				3B4677F7243BC8FC00BCA0E0 /* handshake.cc in Sources */,
 				3B467695243B9CAC00BCA0E0 /* x509_req.c in Sources */,
 				3BE69A62243A66B4000F7240 /* tasn_dec.c in Sources */,
+				3B4677F1243BC8FC00BCA0E0 /* ssl_file.cc in Sources */,
 				3B4675C1243B9BB500BCA0E0 /* evp.c in Sources */,
 				3B467653243B9CAC00BCA0E0 /* pcy_lib.c in Sources */,
 				3BE69AFD243A714C000F7240 /* ecdsa_asn1.c in Sources */,
@@ -1629,12 +1787,15 @@
 				3B4675A6243B99B000BCA0E0 /* dsa_asn1.c in Sources */,
 				3B4675D2243B9BB500BCA0E0 /* scrypt.c in Sources */,
 				3B467672243B9CAC00BCA0E0 /* x509_vpm.c in Sources */,
+				3B4677EF243BC8FC00BCA0E0 /* ssl_asn1.cc in Sources */,
 				3B46767F243B9CAC00BCA0E0 /* i2d_pr.c in Sources */,
 				3B467664243B9CAC00BCA0E0 /* v3_ncons.c in Sources */,
 				3B4676D3243BA02F00BCA0E0 /* pem_pkey.c in Sources */,
+				3B467807243BCA3100BCA0E0 /* socket.c in Sources */,
 				3B467648243B9CAB00BCA0E0 /* pcy_node.c in Sources */,
 				3B4676CC243BA02F00BCA0E0 /* pem_info.c in Sources */,
 				3B467699243B9CAC00BCA0E0 /* x_val.c in Sources */,
+				3B467803243BC9AE00BCA0E0 /* hrss.c in Sources */,
 				3BE69A5E243A66B4000F7240 /* asn1_par.c in Sources */,
 				3BE69A69243A66B4000F7240 /* a_bitstr.c in Sources */,
 				3B467668243B9CAC00BCA0E0 /* v3_int.c in Sources */,
@@ -1645,8 +1806,10 @@
 				3BE69AEB243A7106000F7240 /* dh_asn1.c in Sources */,
 				3B46765B243B9CAC00BCA0E0 /* v3_ocsp.c in Sources */,
 				3BE69A6F243A66B4000F7240 /* a_i2d_fp.c in Sources */,
+				3B4677DE243BC8FC00BCA0E0 /* dtls_record.cc in Sources */,
 				3BE69AC0243A6FDB000F7240 /* lhash.c in Sources */,
 				3BE69AED243A7106000F7240 /* dh.c in Sources */,
+				3B4677E8243BC8FC00BCA0E0 /* ssl_aead_ctx.cc in Sources */,
 				3B46764B243B9CAB00BCA0E0 /* pcy_data.c in Sources */,
 				3BE69A98243A673C000F7240 /* obj_xref.c in Sources */,
 				3B467693243B9CAC00BCA0E0 /* by_dir.c in Sources */,
@@ -1660,6 +1823,7 @@
 				3BE695F3243A6416000F7240 /* fips_shared_support.c in Sources */,
 				3BE69A78243A66B4000F7240 /* a_d2i_fp.c in Sources */,
 				3B4676D1243BA02F00BCA0E0 /* pem_lib.c in Sources */,
+				3B4677EA243BC8FC00BCA0E0 /* t1_enc.cc in Sources */,
 				3B46758A243B986B00BCA0E0 /* e_null.c in Sources */,
 				3BE69506243A62E2000F7240 /* bio.c in Sources */,
 				3B467670243B9CAC00BCA0E0 /* x_algor.c in Sources */,
@@ -1673,6 +1837,7 @@
 				3BE69A6D243A66B4000F7240 /* time_support.c in Sources */,
 				3B4676AB243B9DD700BCA0E0 /* rc4.c in Sources */,
 				3BE694FD243A62E2000F7240 /* printf.c in Sources */,
+				3B4677E9243BC8FC00BCA0E0 /* handshake_server.cc in Sources */,
 				3B467674243B9CAC00BCA0E0 /* asn1_gen.c in Sources */,
 				3BE69A8C243A66DD000F7240 /* cbs.c in Sources */,
 				3B4675CC243B9BB500BCA0E0 /* p_ec.c in Sources */,
@@ -1691,6 +1856,7 @@
 				3B46764F243B9CAB00BCA0E0 /* v3_pcia.c in Sources */,
 				3B46765D243B9CAC00BCA0E0 /* v3_crld.c in Sources */,
 				3B46758B243B986B00BCA0E0 /* e_rc4.c in Sources */,
+				3B4677E6243BC8FC00BCA0E0 /* d1_srtp.cc in Sources */,
 				3B467662243B9CAC00BCA0E0 /* v3_utl.c in Sources */,
 				3B467647243B9CAB00BCA0E0 /* pcy_tree.c in Sources */,
 				3B46765F243B9CAC00BCA0E0 /* v3_purp.c in Sources */,
@@ -1700,24 +1866,32 @@
 				3B46759F243B998600BCA0E0 /* digest_extra.c in Sources */,
 				3B46768A243B9CAC00BCA0E0 /* x_req.c in Sources */,
 				3BE69A6E243A66B4000F7240 /* a_utf8.c in Sources */,
+				3B467783243BC8FC00BCA0E0 /* ssl_transcript.cc in Sources */,
 				3BE69A64243A66B4000F7240 /* a_print.c in Sources */,
 				3BE69B0D243A71D1000F7240 /* windows.c in Sources */,
 				3B467680243B9CAC00BCA0E0 /* x_pubkey.c in Sources */,
 				3B467588243B986B00BCA0E0 /* e_aesgcmsiv.c in Sources */,
 				3BE69A68243A66B4000F7240 /* tasn_new.c in Sources */,
+				3B467784243BC8FC00BCA0E0 /* d1_both.cc in Sources */,
 				3BE69A72243A66B4000F7240 /* a_type.c in Sources */,
 				3B46766F243B9CAC00BCA0E0 /* x_all.c in Sources */,
+				3B4677F3243BC8FC00BCA0E0 /* handshake_client.cc in Sources */,
 				3B467675243B9CAC00BCA0E0 /* x_pkey.c in Sources */,
 				3B4676BD243B9E3300BCA0E0 /* pkcs8.c in Sources */,
 				3B46766B243B9CAC00BCA0E0 /* x_attrib.c in Sources */,
+				3B4677DF243BC8FC00BCA0E0 /* ssl_cipher.cc in Sources */,
 				3BE69AB3243A6F12000F7240 /* thread.c in Sources */,
 				3BE69B0C243A71D1000F7240 /* forkunsafe.c in Sources */,
+				3B4677E7243BC8FC00BCA0E0 /* tls13_both.cc in Sources */,
+				3B4677F0243BC8FC00BCA0E0 /* ssl_key_share.cc in Sources */,
+				3B4677F5243BC8FC00BCA0E0 /* s3_both.cc in Sources */,
 				3BE69A7A243A66B4000F7240 /* asn1_lib.c in Sources */,
 				3B46767B243B9CAC00BCA0E0 /* a_digest.c in Sources */,
 				3B4675CA243B9BB500BCA0E0 /* p_rsa.c in Sources */,
 				3BE69B08243A71D1000F7240 /* rand_extra.c in Sources */,
 				3B4676A5243B9CAC00BCA0E0 /* x509_att.c in Sources */,
 				3BE69A77243A66B4000F7240 /* a_bool.c in Sources */,
+				3B4677DC243BC8FC00BCA0E0 /* tls13_enc.cc in Sources */,
 				3B4676A1243B9CAC00BCA0E0 /* x_info.c in Sources */,
 				3B4676D0243BA02F00BCA0E0 /* pem_oth.c in Sources */,
 				3BE694FF243A62E2000F7240 /* pair.c in Sources */,
@@ -1732,23 +1906,32 @@
 				3B4675C8243B9BB500BCA0E0 /* evp_ctx.c in Sources */,
 				3B467651243B9CAC00BCA0E0 /* v3_conf.c in Sources */,
 				3BE69AD3243A7052000F7240 /* refcount_c11.c in Sources */,
+				3B4677E1243BC8FC00BCA0E0 /* tls_record.cc in Sources */,
+				3B4677F2243BC8FC00BCA0E0 /* bio_ssl.cc in Sources */,
+				3B46777D243BC8FC00BCA0E0 /* d1_pkt.cc in Sources */,
 				3B467646243B9CAB00BCA0E0 /* v3_sxnet.c in Sources */,
 				3BE69AEC243A7106000F7240 /* params.c in Sources */,
 				3B467586243B986B00BCA0E0 /* derive_key.c in Sources */,
+				3B4677E5243BC8FC00BCA0E0 /* s3_pkt.cc in Sources */,
 				3B4676A6243B9CAC00BCA0E0 /* x509_cmp.c in Sources */,
 				3B46766A243B9CAC00BCA0E0 /* v3_pku.c in Sources */,
 				3BE69AF3243A711E000F7240 /* ec_asn1.c in Sources */,
 				3B467589243B986B00BCA0E0 /* tls_cbc.c in Sources */,
 				3B467663243B9CAC00BCA0E0 /* v3_info.c in Sources */,
 				3B467596243B990600BCA0E0 /* cmac.c in Sources */,
+				3B467808243BCA3100BCA0E0 /* socket_helper.c in Sources */,
 				3BE69AAC243A6C89000F7240 /* chacha.c in Sources */,
+				3B467782243BC8FC00BCA0E0 /* ssl_c_test.c in Sources */,
 				3B46767D243B9CAC00BCA0E0 /* x509_set.c in Sources */,
 				3B467655243B9CAC00BCA0E0 /* pcy_cache.c in Sources */,
+				3B4677FA243BC8FC00BCA0E0 /* ssl_stat.cc in Sources */,
 				3B4675D7243B9BB500BCA0E0 /* pbkdf.c in Sources */,
 				3BE69A7B243A66B4000F7240 /* a_utctm.c in Sources */,
 				3B467665243B9CAC00BCA0E0 /* v3_alt.c in Sources */,
 				3B467692243B9CAC00BCA0E0 /* a_verify.c in Sources */,
+				3B4677EC243BC8FC00BCA0E0 /* handoff.cc in Sources */,
 				3B467585243B986B00BCA0E0 /* e_tls.c in Sources */,
+				3B4677F6243BC8FC00BCA0E0 /* ssl_cert.cc in Sources */,
 				3B4675D6243B9BB500BCA0E0 /* p_x25519_asn1.c in Sources */,
 				3BE69A5D243A66B4000F7240 /* a_gentm.c in Sources */,
 				3B4676BF243B9E3300BCA0E0 /* pkcs7.c in Sources */,
@@ -1774,6 +1957,7 @@
 				3B467645243B9CAB00BCA0E0 /* v3_lib.c in Sources */,
 				3BE69AE0243A70D4000F7240 /* spake25519.c in Sources */,
 				3BE69508243A62E2000F7240 /* file.c in Sources */,
+				3B4677EB243BC8FC00BCA0E0 /* s3_lib.cc in Sources */,
 				3B467584243B986B00BCA0E0 /* cipher_extra.c in Sources */,
 				3BE69AD2243A7052000F7240 /* refcount_lock.c in Sources */,
 				3B4675C5243B9BB500BCA0E0 /* digestsign.c in Sources */,
@@ -1913,7 +2097,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1001;
+				CURRENT_PROJECT_VERSION = 1002;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8TF9JJP47U;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1943,7 +2127,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1001;
+				CURRENT_PROJECT_VERSION = 1002;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8TF9JJP47U;
 				DYLIB_COMPATIBILITY_VERSION = 1;
