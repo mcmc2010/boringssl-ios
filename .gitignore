@@ -1,2 +1,2 @@
-build/XCBuildData/
-build/boringssl-ios.build/
+build/XCBuildData
+build/boringssl-ios.build
